@@ -42,3 +42,17 @@ The render() method is used to return the JSX that is displayed in the UI.
 The componentDidMount() method is used to run statements that require that the component is already placed in the DOM.
 
 Example: set timers, initiate API calls, etc.
+
+## Updating Phase
+In this phase, the component is updated whenever there is a change in the component's state.
+
+### render()
+The render() method is called whenever there is a change in the component's state.
+
+## Unmounting Phase
+In this phase, the component instance is removed from the DOM.
+
+### componentWillUnmount()
+The componentWillUnmount() method is used to cleanup activities performed.
+
+Example: clearing timers, cancelling API calls, etc.
