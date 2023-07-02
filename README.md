@@ -33,7 +33,7 @@ The constructor() method is used to set up the initial state and class variables
 We must call the super(props) method before any other statement. Calling super(props) makes sure that constructor() of the React.Component gets called and initializes the instance.
 
 Initialising State through props
-  this.state={key:value}
+  - this.state={key:value}
 
 ### render()
 The render() method is used to return the JSX that is displayed in the UI.
