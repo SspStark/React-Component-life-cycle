@@ -27,7 +27,7 @@ We mainly use the three methods. The three methods are called in the given order
 - render()
 - componentDidMount()
   
-#### constructor()
+### constructor()
 The constructor() method is used to set up the initial state and class variables.
 
 We must call the super(props) method before any other statement. Calling super(props) makes sure that constructor() of the React.Component gets called and initializes the instance.
@@ -35,10 +35,10 @@ We must call the super(props) method before any other statement. Calling super(p
 Initialising State through props
   this.state={key:value}
 
-#### render()
+### render()
 The render() method is used to return the JSX that is displayed in the UI.
 
-#### componentDidMount()
+### componentDidMount()
 The componentDidMount() method is used to run statements that require that the component is already placed in the DOM.
 
 Example: set timers, initiate API calls, etc.
